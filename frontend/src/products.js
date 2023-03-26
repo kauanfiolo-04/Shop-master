@@ -1,4 +1,4 @@
-import limao from './assets/limao-trufa.webpg'
+import limao from './assets/limao-trufa.jpg'
 
 export const PRODUCTS=[
   {
