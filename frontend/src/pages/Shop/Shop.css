@@ -7,7 +7,7 @@
 
 .shopTitle{
   font-size: 1.7em;
-  color: #703d3d;
+  color: #522a27;
   margin:2px auto;
 }
 
@@ -18,7 +18,7 @@
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   margin:0 auto;
-  background-color: #e0dede;
+  background-color: #F2C078;
   border-radius: 2%;
   gap: 3px;
 }
@@ -28,24 +28,41 @@
   flex-direction: column;
   justify-content: flex-start;
   margin:4% auto;
-  background-color: #928c8c;
+  background-color: #faedca;
   padding:12px 6px;
   border-radius: 4%;
-  border: 2px solid rgb(66, 66, 66);
-  
+  border: 2px solid rgb(126, 63, 47);  
 }
 
 .product:hover{
-  border:2px solid rgb(126, 63, 47);
-  box-shadow: inset 8px 5px 6px 4px rgba(44, 44, 44, 0.5);
+  border:2px solid #fe5d26;
+  box-shadow: inset 8px 3px 20px 4px rgba(44, 44, 44, 0.5);
 }
 
 .product img{
   border-radius: 8px;
-  box-shadow: 6px 8px rgba(0,0,0,.4);
+  box-shadow: 4px 6px rgba(0,0,0,.4);
   width: 70%;
   position: relative;
   margin: 0 auto;
+}
+
+.addToCartBtn{
+  border-radius: 10px;
+  height: 2em;
+  width: fit-content;
+  margin: 0 auto;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: rgb(253, 253, 253);
+  color: #7ebc89;
+}
+
+.addToCartBtn:hover{
+  border: 2px solid #7ebc89;
+  background-color: #c1dbb3;
+  color: rgb(253, 253, 253);
 }
 
 .description{
@@ -61,7 +78,7 @@
 }
 
 .description p{
-  color: white;
+  color: #fe5d26;
   font-weight: bold;
 }
 
